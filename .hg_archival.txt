@@ -1,0 +1,4 @@
+repo: 581b1b150a4d7d953ff1bb4210d69160bb7d2c2c
+node: 5fe1f2efd40779acbdccc4c91a53693bd61f6d9b
+branch: default
+tag: sonic-annotator-1.0
