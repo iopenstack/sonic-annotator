@@ -1,0 +1,16 @@
+Source: sonic-annotator
+Priority: extra
+Maintainer: tristan <tristan@clonebase.we7.local>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, qt5-qmake, qtbase5-dev, libbz2-dev, fftw3-dev, libsamplerate0-dev, libsndfile1-dev, vamp-plugin-sdk, libvamp-hostsdk3, libvamp-sdk2, librubberband-dev, libdataquay-dev, libasound2-dev, libsord-dev, libid3tag0-dev, libmad0-dev, libxml2-utils, raptor2-utils, vamp-examples, vamp-test-plugin
+Standards-Version: 3.9.2
+Section: libs
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/sonic-annotator.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/sonic-annotator.git;a=summary
+
+Package: sonic-annotator
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, bzip2, fftw3, libsamplerate0, libsndfile1, vamp-plugin-sdk, libvamp-hostsdk3, libvamp-sdk2, librubberband2, libdataquay0, libasound2 
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

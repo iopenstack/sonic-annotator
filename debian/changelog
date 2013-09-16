@@ -1,0 +1,5 @@
+sonic-annotator (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- tristan <tristan@clonebase.we7.local>  Mon, 09 Sep 2013 08:03:56 +0100
